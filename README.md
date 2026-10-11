@@ -14,6 +14,10 @@
 
 ![对战战报](docs/preview-matches.jpg)
 
+### 暗色主题
+
+![暗色主题](docs/preview-dark.jpg)
+
 > 内置**暗色 / 浅色**两套主题，可在 AstrBot WebUI 的插件配置中切换（`theme`）。
 
 ## 功能
