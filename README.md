@@ -10,24 +10,11 @@
 
 ![战绩总览](docs/preview-overview.jpg)
 
-<details>
-<summary>武器 / 载具 / 装备 / 近战 排行</summary>
-
-![武器载具排行](docs/preview-weapons.jpg)
-
-![装备近战](docs/preview-gadgets.jpg)
-
-</details>
-
 ### 最新战报 `/bf6战报 <玩家名>`
 
 ![对战战报](docs/preview-matches.jpg)
 
-### 暗色主题
-
-![暗色主题](docs/preview-dark.jpg)
-
-> 主题可在 AstrBot WebUI 的插件配置中切换（`theme`：`dark` / `light`）。
+> 内置**暗色 / 浅色**两套主题，可在 AstrBot WebUI 的插件配置中切换（`theme`）。
 
 ## 功能
 
