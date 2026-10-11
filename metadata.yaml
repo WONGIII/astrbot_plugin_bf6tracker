@@ -1,0 +1,7 @@
+name: astrbot_plugin_bf6tracker
+display_name: 战地6战绩查询
+desc: 基于 OpenBF6Tracker 的战地6(Battlefield 6)全平台战绩查询插件。支持 Origin/Steam/PSN/Xbox 四大平台，/bf6 出生涯总览图、/bf6战报 出对局战报图并支持翻页，也可由大模型自动调用工具查询；使用 AstrBot 内置 html_render 渲染，内置暗色/浅色两套主题。
+short_desc: 战地6战绩查询，精美总览图与战报图
+version: v1.1.0
+author: WONGIII
+repo: https://github.com/WONGIII/astrbot_plugin_bf6tracker

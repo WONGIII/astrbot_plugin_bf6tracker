@@ -1,0 +1,47 @@
+{
+  "theme": {
+    "description": "出图主题",
+    "type": "string",
+    "options": [
+      "dark",
+      "light"
+    ],
+    "default": "dark",
+    "hint": "dark=暗色战术风(SVG图标反白显示)；light=浅色模式(兵种/模式图标黑色原生显示)"
+  },
+  "api_base": {
+    "description": "OpenBF6Tracker 查询站地址",
+    "type": "string",
+    "default": "https://battlefield.977744.xyz",
+    "hint": "自建站可改成自己的域名，无需斜杠结尾"
+  },
+  "page_size": {
+    "description": "战报每页场数",
+    "type": "int",
+    "default": 5,
+    "hint": "建议 3-10，过大图片会很长"
+  },
+  "top_n": {
+    "description": "总览图武器/载具排行数量",
+    "type": "int",
+    "default": 8,
+    "hint": "3-15 之间"
+  },
+  "timeout": {
+    "description": "站点 API 请求超时(秒)",
+    "type": "int",
+    "default": 30
+  },
+  "search_timeout": {
+    "description": "搜人超时(秒)",
+    "type": "int",
+    "default": 60,
+    "hint": "站点 /api/search 已带本地兜底，一般几秒内返回"
+  },
+  "render_timeout": {
+    "description": "出图超时(毫秒)",
+    "type": "int",
+    "default": 150000,
+    "hint": "T2I 服务 page.goto 默认只有 30 秒；总览图很高，低配机器上会超时导致“All endpoints failed: HTTP 500”，建议保持 90000 以上"
+  }
+}
